@@ -3,8 +3,8 @@ triângulo retângulo. Calcule e mostre o comprimento da hipotenusa. """
 
 from math import hypot
 
-catOpo = float(input('comprimento do cateto oposto: '))
-catAdj = float(input('comprimento do cateto adjacente: '))
-hipo = hypot(catOpo, catAdj)
+co = float(input('comprimento do cateto oposto: '))
+ca = float(input('comprimento do cateto adjacente: '))
+hi = hypot(co, ca)
 
-print('Se meu cateto oposto é {} e meu cateto adjacente é {}, então a minha hipotenusa é {:.2f}'.format(catOpo, catAdj, hipo))
+print('Se meu cateto oposto é {} e meu cateto adjacente é {}, então a minha hipotenusa é {:.2f}'.format(co, ca, hi))
